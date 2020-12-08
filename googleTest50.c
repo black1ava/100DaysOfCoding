@@ -16,7 +16,7 @@ int main(){
     
     int correct = 0;
     
-    for(int i = 0, k = 0; i < length, k < 2; i++, k++){
+    for(int i = 0; i < length; i++){
     
         leftToRight[0] = '\0';
         upToDown[0] = '\0';
