@@ -10,6 +10,8 @@ int main(){
     printf("Input a positive integer: ");
     scanf("%d", &n);
     printf("Perfect number is %d", perfect(n, n));
+   
+    return 0;
 }
 
 int perfect(int n, int m){
