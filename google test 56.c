@@ -41,6 +41,7 @@ void mergeInterval(interval intervals[], int size){
                 intervals[j] = intervals[j + 1];
             
                 size--;
+                i--;
             }
         }
     }
