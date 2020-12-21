@@ -35,7 +35,7 @@ int main(){
     int count = 1;
     runLength *alphas = NULL;
     
-    for(int i = 1; i < length; i++){
+    for(int i = 1; i <= length; i++){
         if(string[i] == string[i - 1]){
             count++;
         }else{
